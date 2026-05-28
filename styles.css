@@ -1569,7 +1569,8 @@ button.contact-cta:focus-visible{
 }
 
 @media (max-width: 800px){
-  .contact-grid{grid-template-columns: 1fr 1fr}
+  .contact-grid{grid-template-columns: 1fr}
+  .contact-grid > div:nth-child(2){display:none}
 }
 
 /* ============ FOOTER ============ */
