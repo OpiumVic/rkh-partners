@@ -405,3 +405,6 @@
     startAutoplay();
   }
 })();
+
+/* Founders section: stacked vertical on mobile, side-by-side on desktop.
+   No JS — pure CSS responsive grid. */
