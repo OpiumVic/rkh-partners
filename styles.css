@@ -2657,10 +2657,18 @@ a.card:hover .card-go{gap:18px; color: var(--ochre-soft)}
   color: var(--ink);
   transition: background .25s, padding .25s;
 }
-.hub-post:hover{
+a.hub-post:hover{
   background: rgba(244,236,214,.025);
   padding-left: 16px;
   padding-right: 16px;
+}
+/* Non-clickable "coming soon" entries */
+.hub-post.is-soon{
+  cursor: default;
+  opacity: .62;
+}
+.hub-post.is-soon .hp-tag{
+  color: var(--ochre);
 }
 .hp-date{
   font-family: var(--mono);
